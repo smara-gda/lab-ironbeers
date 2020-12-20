@@ -5,3 +5,41 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+.footer {
+  width: 100%;
+  bottom: 0px;
+  position: fixed;
+}
+.container {
+  text-align: center;
+  margin-top: 24px;
+}
+.img {
+  margin-top: 32px;
+  width: 312px;
+  height: 292px;
+}
+.button-links {
+  width: 324px;
+}
+
+.button-links a {
+  background-color: #2081c3;
+  color: #f7f9f9;
+  display: block;
+  margin: 12px 0 12px 0;
+  line-height: 36px;
+  height: 38px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.button-links .small-link {
+  width: 168px;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 38px;
+}
+.button-links .big-link {
+  width: 268px;
+}
