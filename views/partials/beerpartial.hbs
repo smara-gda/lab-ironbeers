@@ -1,11 +1,18 @@
 
-<a href="/beers/{{id}}">
-  <h3>{{name}}</h3>
-</a>
-<img src={{image_url}}  alt="beer image">
-<div>
-  <p><strong>Description:</strong> {{description}}</p>
-</div> 
-<div>
-  <h4>{{tagline}}</h4>
-</div>
+ <div class="beers">
+  <a href="/beers/{{id}}" class="">
+   <img src={{image_url}}  alt="beer image" class="beer-img">
+
+  </a>
+ <div>
+    
+    <h3 {{name}}</h3>
+   </div>
+   <div class="beer-descr">
+    <p><strong>Description:</strong> {{description}}</p>
+   </div> 
+   <div class="">
+    <h4>{{tagline}}</h4>
+   </div>
+  </div>
+

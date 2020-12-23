@@ -6,6 +6,11 @@ grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
 
+body {
+  margin: 0 auto;
+  /* max-width: 720px; */
+}
+
 .footer {
   width: 100%;
   bottom: 0px;
@@ -42,4 +47,26 @@ font-family: Arial, Helvetica, sans-serif;
 }
 .button-links .big-link {
   width: 268px;
+}
+
+.beer-img {
+  height: 187px;
+  width: 84px;
+}
+.beers {
+  width: 426px;
+  display: inline-block;
+  padding: 26px;
+  /* margin: 26px; */
+}
+/* 
+.beer-container {
+  padding: 10px 68px 10px 68px;
+  /* margin: 0 auto; */
+/* display: inline;
+} */
+
+.beer-descr p {
+  width: 100%;
+  text-align: left;
 }
